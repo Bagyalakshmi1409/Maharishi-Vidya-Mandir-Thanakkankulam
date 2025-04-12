@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maharishi Vidya Mandir Sr. Sec. School, Thanakkankulam</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #ccc930; color: rgb(214, 29, 190); padding: 20px; text-align: center; }
+    nav { background-color: #23bd38; text-align: center; padding: 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-size: 18px; }
+    section { padding: 20px; display: none; }
+    h2 { color: #2d3e50; }
+    footer { background-color: #eccd1b; padding: 20px; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maharishi Vidya Mandir Sr. Sec. School, Thanakkankulam</h1>
+    <p>Empowering the Future with Knowledge & Values</p>
+  </header>
+  <nav>
+    <a href="javascript:void(0);" onclick="showSection('home')">Home</a>
+    <a href="javascript:void(0);" onclick="showSection('about')">About Us</a>
+    <a href="javascript:void(0);" onclick="showSection('admission')">Admissions</a>
+    <a href="javascript:void(0);" onclick="showSection('academics')">Academics</a>
+    <a href="javascript:void(0);" onclick="showSection('contact')">Contact Us</a>
+  </nav>
+  <section id="home">
+    <h2>Maharishi Vidya Mandir Senior Secondary School</h2>
+    <p>Located in Thanakkankulam, Madurai, is a co-educational institution established in 2012. Affiliated with the Central Board of Secondary Education (CBSE), the school offers classes from Nursery to XII, with English as the medium of instruction.</p>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>In the year 2012, on June 14th, the school was ready to nestle children from Pre K.G. to Std XII. 116 walked in and were welcomed by a crew of 19 teachers. Though the cozy classrooms and the incredible infrastructure attracted everyone, it was the motherly care given by the dedicated teachers that attracted children from various directions. In the second year, 18 teachers stepped in newly, and 414 students were added to the MVM family. With the untiring efforts of the Management, Principal, and staff, the big banyan tree has spread its branches further to shelter 1000+ students.</p>
+  </section>
+  <section id="admission">
+    <h2>Admission Enquiry Form</h2>
+      <div style="position: relative; width: 100%; height: 0; padding-bottom: 125%;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScLmvvQbmKA-B06AHeq6zvXbihzLQKAFC9zAsS2pVjK1kTpbw/viewform?usp=header" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </section>
+     <section id="academics">
+    <h2>Academic and Co-Curricular Activities</h2>
+    <p>The school emphasizes holistic development through various co-curricular activities, including:</p>
+    <ul>
+      <li>Hobby classes, debates, drama, educational tours, and creative writing.</li>
+      <li>Competitions such as recitation, music, quiz, Olympiads, and art contests.</li>
+      <li>Sports and fitness programs, including indoor games, yoga, and aerobics.</li>
+    </ul>
+    <p>Additionally, the curriculum integrates Transcendental Meditation, Yogasana, and Pranayama to promote mental well-being.</p>
+    <h3>Facilities:</h3>
+    <ul>
+      <li>Smart classrooms, well-equipped science and computer labs, and a library.</li>
+      <li>Sports facilities, a cafeteria, and transport services with GPS tracking and CCTV surveillance.</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <li>201/3, Thanakkankulam, TPK Main Road, Madurai - 625006, Tamil Nadu.</li>
+    <li>Phone:</strong> +91-8428334555, +91-8754047670</li>
+    <li>Email:</strong> info@mathieducationaltrust.org</li>
+  </section>
+  <footer>
+    <p>&copy; 2025 Maharishi Vidya Mandir Sr. Sec. School | All Rights Reserved.</p>
+  </footer>
+  <script>
+    function showSection(id) {
+      // Hide all sections
+      var sections = document.querySelectorAll('section');
+      sections.forEach(function(section) {
+        section.style.display = 'none';
+      });
+      // Show the selected section
+      var selectedSection = document.getElementById(id);
+      selectedSection.style.display = 'block';
+    }
+        // Show Home section by default
+    document.addEventListener('DOMContentLoaded', function() {
+      showSection('home');
+    });
+  </script>
+</body>
+</html>
